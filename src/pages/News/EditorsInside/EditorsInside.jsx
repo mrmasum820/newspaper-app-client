@@ -5,7 +5,7 @@ const EditorsInside = () => {
     const [news, setNews] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/news')
+        fetch('https://green-dugong-cap.cyclic.app/news')
             .then(res => res.json())
             .then(data => {
                 // console.log(data.slice(0, 3));
